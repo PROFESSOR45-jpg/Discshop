@@ -1,1 +1,162 @@
+|<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div class="header-container">
+         <h1>WELCOME TO DISCOUNT SHOP</h1> 
+         <p>YOUR EVERYDAY SELLER</p>
+    </div>
+</head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 
+<body 
+style="background-image: url(https://files.catbox.moe/zk4opc.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;">
+</body>
+<body>
+    <nav>
+    <div class="topnav">
+        <a class="active"
+     href="#HOME">HOME</a>
+     <br>
+        <a href="#PRODUCTS">PRODUCTS</a>
+     <br>
+        <a href="#NEWS">NEWS</a>
+     <br>   
+        <a href="#CONTACT">CONTACT</a>
+     <br>   
+        <div class="topnav-right">
+            <br>
+            <a href="#SEARCH">SEARCH</a> 
+            <br>   
+            <a href="#ABOUT">ABOUT</a>
+        </div>
+    </div>
+    </nav>
+</body>
+<body>
+    <header>
+    <main>
+        <section id="HOME">
+            <h2>Home</h2>
+            <p style="color: blue;">YOUR ONE STOP SHOP.</p>
+        </section>
+        <section id="PRODUCTS">
+            <h2>Products</h2>
+            <p style="color: blue;"> our wide range of products available at wholesale prices.</p>
+        </section>
+
+        <div class="product-container">
+            <!--product image-->
+            <img src="https://files.catbox.moe/zk4opc.jpg" alt="product description">
+            <!--product details-->
+            <h1>SUGAR</h1>
+            <p class="price">KSH.170</p>
+            <p>1KG</p>
+            <!--Add to cart button-->
+            <form action="/add-to-cart" method="post">
+                <input type="hidden" name="product id" value="123">
+                <button type="submit">Add to cart</button>
+            </form>
+        </div>
+        <div class="product-container">
+            <!--product image-->
+            <img src="https://files.catbox.moe/jqvrcl.jpeg" alt="product description">
+            <!--product details-->
+            <h1>RICE</h1>
+            <p class="price">KSH.120</p>
+            <p>1KG</p>
+            <!--Add to cart button-->
+            <form action="/add-to-cart" method="post">
+                <input type="hidden" name="product id" value="123">
+                <button type="submit">Add to cart</button>
+            </form>
+        </div>
+        <div class="product-container">
+            <!--product image-->
+            <img src="https://files.catbox.moe/8v7wt4.jpeg" alt="product description">
+            <!--product details-->
+            <h1>SALT</h1>
+            <p class="price">KSH.40</p>
+            <p>1KG</p>
+            <!--Add to cart button-->
+            <form action="/add-to-cart" method="post">
+                <input type="hidden" name="product id" value="123">
+                <button type="submit">Add to cart</button>
+            </form>
+        </div>
+        <div class="product-container">
+            <!--product image-->
+            <img src="https://files.catbox.moe/xyboha.jpg" alt="product description">
+            <!--product details-->
+            <h1>BAKING FLOOR</h1>
+            <p class="price">KSH.170</p>
+            <p>2KG</p>
+            <!--Add to cart button-->
+            <form action="/add-to-cart" method="post">
+                <input type="hidden" name="product id" value="123">
+                <button type="submit">Add to cart</button>
+            </form>
+        </div>
+        <div class="product-container">
+            <!--product image-->
+            <img src="https://files.catbox.moe/oyz1u0.jpeg" alt="product description">
+            <!--product details-->
+            <h1>MAIZE FLOUR</h1>
+            <p class="price">KSH.150</p>
+            <p>2KG</p>
+            <!--Add to cart button-->
+            <form action="/add-to-cart" method="post">
+                <input type="hidden" name="product id" value="123">
+                <button type="submit">Add to cart</button>
+            </form>
+        </div>
+        <div class="product-container">
+            <!--product image-->
+            <img src="https://files.catbox.moe/incp1p.webp" alt="product description">
+            <!--product details-->
+            <h1>BAKING POWDER</h1>
+            <p class="price">KSH.35</p>
+            <p>1 PIECE</p>
+            <!--Add to cart button-->
+            <form action="/add-to-cart" method="post">
+                <input type="hidden" name="product id" value="123">
+                <button type="submit">Add to cart</button>
+            </form>
+        </div>
+        <div class="product-container">
+            <!--product image-->
+            <img src="https://files.catbox.moe/my620d.jpeg" alt="product description">
+            <!--product details-->
+            <h1>C.OIL</h1>
+            <p class="price">KSH.300</p>
+            <p>1 LITRE</p>
+            <!--Add to cart button-->
+            <form action="/add-to-cart" method="post">
+                <input type="hidden" name="product id" value="123">
+                <button type="submit">Add to cart</button>
+            </form>
+        <section id="News">
+            <h2>News</h2>
+            <p style="color: blue;">Todays offer sugar and milk.</p>
+        <section id="ABOUTS">
+            <h2>About Us</h2>
+            <p style="color: blue;">Learn more about DISCOUNT SHOP and our mission.</p>
+        </section>
+        <section id="CONTACT">
+            <h2>CONTACT</h2>
+            <p style="color: blue;">PHONO.NO : 0112658916</p>
+        </section>
+    </main>
+    <footer>
+        <p style="color: blue;">&copy; 2024 DISCOUNT SHOP. All rights reserved.</p>
+    </footer>
+</body>
+    
+</body>
+</html>
