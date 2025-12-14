@@ -26,11 +26,18 @@ background-attachment: fixed;">
     
 <body>
 
-<nav class="navbar">
-    <!-- The button that appears on mobile/small screens -->
-    <button class="menu-toggle" id="menu-toggle" aria-label="Open menu hidden"></button>
-
-    <!-- The navigation links, initially visible on large screens, hidden on small screens -->
+ <header class="header">
+  <div class="logo">MyLogo</div>
+  <!-- The Hamburger Button (often a <label> for the checkbox) -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="hamburger-icon">
+    <span></span> <!-- Bar 1 -->
+    <span></span> <!-- Bar 2 -->
+    <span></span> <!-- Bar 3 -->
+  </label>
+  <!-- The Navigation Menu -->
+  <nav class="navbar">
+ <!-- The navigation links, initially visible on large screens, hidden on small screens -->
     <ul class="nav-menu" id="nav-menu">
         <li><a href="#HOME">Home</a></li>
         <li><a href="#PRODUCTS">About</a></li>
@@ -39,6 +46,7 @@ background-attachment: fixed;">
         <li><a href="#ABOUT">ABOUT US</a></li>
         <li><a href="#SEARCH">SEARCH</a></li>
     </ul>
+ </header>
 </nav>
     
     </nav/>
