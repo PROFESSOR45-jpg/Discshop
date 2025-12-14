@@ -1,22 +1,30 @@
 |<!DOCTYPE html>
 <html lang="en">
 <head>
-    <div class="header-container">
-         <h1>WELCOME TO DISCOUNT SHOP</h1> 
-         <p>YOUR EVERYDAY SELLER</p>
-    </div>
-</head>
-    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML search bar</title>
-
-    <form action="https://discshop.vercel.app/" method="get" role="search">
-        <label for="site-search">SEARCH:</label>
-        <input type="search" id="SEARCH" name="q" placeholder="Discount shop search">
-        <button type="submit">SEARCH</button>
+    <title>HTML Search Bar</title>
+    <!-- You can link your CSS file here: -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <!-- The form element defines where the search query is sent -->
+    <form action="https://google.com/search" method="get" role="search">
+        <label for="site-search" style="display: none;">Search the site:</label>
+        
+        <!-- The input field where the user types -->
+        <input 
+            type="search" 
+            id="site-search" 
+            name="q" 
+            placeholder="Search Google..." 
+            aria-label="Search through our site content">
+        
+        <!-- The button to submit the form -->
+        <button type="submit">Search</button>
     </form>
-
+</body>
+    
 <body 
 style="background-image: url(https://files.catbox.moe/fkme21.jpeg);
 background-size: cover;
